@@ -175,7 +175,8 @@ compose:
  ```
  
  After that your tree structure should look like this. 
- ![image](https://user-images.githubusercontent.com/78824700/201452830-3519003b-ffea-4b16-828a-224d80d820de.png)
+
+![image](https://user-images.githubusercontent.com/78824700/201452830-3519003b-ffea-4b16-828a-224d80d820de.png)
  
  In dev directory run ``` terraform validate ```
 ![image](https://user-images.githubusercontent.com/78824700/201452870-d8a6241f-79dd-4a54-a212-ca78be92a6d5.png)
@@ -185,8 +186,9 @@ then run ``` terraform apply ``
 After this terraform has created 3 droplets and 1 loadbalancer in digital ocean. 
 
 go to mgnt directory and run ``` ansible -m ping -u root webserver ```
-![image](https://user-images.githubusercontent.com/78824700/201452487-f286f511-09af-497f-97b9-a8e3fe52affd.png)
+![image](https://user-images.githubusercontent.com/78824700/201452495-1593d47d-5972-4efa-a0a0-10230ce6393d.png)
+
 
 and then run ``` ansible-playbook nginx_setup.yml -u root ```
 Go to web browser and check the ip address for loadbalancer 
-![image](https://user-images.githubusercontent.com/78824700/201452495-1593d47d-5972-4efa-a0a0-10230ce6393d.png)
+![image](https://user-images.githubusercontent.com/78824700/201452487-f286f511-09af-497f-97b9-a8e3fe52affd.png)
