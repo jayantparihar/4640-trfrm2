@@ -181,7 +181,7 @@ compose:
  In dev directory run ``` terraform validate ```
 ![image](https://user-images.githubusercontent.com/78824700/201452870-d8a6241f-79dd-4a54-a212-ca78be92a6d5.png)
 
-then run ``` terraform apply ``
+then run ``` terraform apply ```
 
 After this terraform has created 3 droplets and 1 loadbalancer in digital ocean. 
 
